@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    height:1080px;
+    width: 720px;
+    background-color: aqua;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-div{
+    flex: 1;
+    background-color: bisque;
+}
+
+.places-div{
+    flex: 1;
+    background-color: #9097A2;
+    display: flex;
+    flex-direction: row;
+    color:black;
+}
+
+.guide-div{
+    flex: 1;
+    background-color:#CC795D;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.guide-container{
+    height: 294px;
+    width: 400px;
+    background-color: #8E4D39;
+    position: absolute;
+    border-radius: 0 0 25px 25px;
+    display: flex;
+    padding: 23px;
+    box-shadow: 0 10px 0 #DEDFDF;
+ }
+ .guide-img-div{
+   
+    width: 180px;
+ }
+ .guide-info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+    color:#DEDFDF;
+ }
+.profile{
+    width: 180px;
+    height: 100%;
+    object-fit: cover;
+    border: 8px solid #DEDFDF;
+
+}
+.your-guide{
+   font-size: 26px;
+   font-weight: bold;
+
+}
+
+.guide-description{
+font-weight: 400;
+font-style: italic;
+font-size: 18px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.guide-name{
+    font-weight: 700;
+    font-size: 18px;
+    }
+    
+
+.head-container{
+display: flex;
+position: relative;
+}
+
+.background-img{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 360px;
+    width: 720px;
+}
+
+.titles{
+    position: absolute;
+    top:30px;
+    left: auto;
+    right: auto;
+   text-align: center;
+   width: 720px;
+}
+
+.chennai{
+    display: inline-block;
+    font-size: 50px;
+    background-color: #006E9E;
+    padding: 15px 45px;
+    border-radius: 10px;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-family: 'Cormorant SC', serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+.about-chennai{
+    display: inline-block;
+    font-size: 18px;
+    background-color: #006E9E;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-family: 'Cormorant SC', serif;
+    margin-top: 25px;
+    text-shadow: 2px 2px 5px black;
+   
+}
+.place-1,.place-2,.place-3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    box-shadow: 0 0 20px black;
+}
+.info1{
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    width: 180px;
+    margin-bottom: 17px;
+
+}
+.sub-info1{
+    font-size: 16px;
+    text-align: center;
+    width: 200px;
+
+}
+
